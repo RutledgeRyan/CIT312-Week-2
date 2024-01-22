@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #7b0738;
+}
+nav .logo {
+  display: inline-block;
+  height: 100%;
+}
+nav .logo img {
+  height: 90%;
+}
+nav .navigation {
+  margin-left: 75%;
+}
+nav .navigation a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+html {
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto;
+}
+#wrapper {
+  
+  width: 100%;
+}
+.splash {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+}
+.splash .splashContent {
+  height: 100%;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(89, 72, 150, 0.65);
+}
+.full {
+  display: flex;
+  min-height: 300px;
+  background-color: #aaabfd;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.full p{
+  margin: 80px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+  background-color: #594896;
+  color: black;
+  justify-content: center;
+}
+.content .box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 300px;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #aaabfd;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+.content .box h1,
+.content .box h3 {
+  text-align: center;
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7b0738;
+  color: white;
+  padding: 10px;
+}
+footer .links {
+  display: flex;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+footer .copyright {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
